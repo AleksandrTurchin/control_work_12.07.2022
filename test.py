@@ -43,3 +43,10 @@ print(new_str)
 
 
 # 4)* Дан список чисел. Реализовать сортировку пузырьком. Результаты вывести на экран.
+
+_list = [6, 12, 4, 3, 8]
+for i in _list:
+    if _list[i] > _list[i + 1]:
+        _list[i], _list[i + 1] = _list[i + 1], _list[i]
+print(_list)
+
